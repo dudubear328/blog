@@ -1,0 +1,71 @@
+# Site settings
+title: DUDUBEAR's Blog
+SEOTitle: DUDUBEAR's Blog
+header-img: img/home-bg.jpg
+email: victoria_dudu@hotmail.com
+description: ""
+keyword: ""
+url: "http://dudubear.me"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# PAGINATION
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+
+
+# SNS settings
+#RSS: false
+#weibo_username:
+#zhihu_username:
+github_username: dudubear328
+#twitter_username:
+#facebook_username:
+
+
+
+# Build settings
+highlighter: pygments
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+#ba_track_id: 832363073972f352339ddeedb4360bed
+# Google Analytics
+ga_track_id: 'UA-70944261-1'            # Format: UA-xxxxxx-xx
+ga_domain: dudubear.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "每天进步一点,菜鸟学习日志"
+sidebar-avatar: /img/avatar-dudubear.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+

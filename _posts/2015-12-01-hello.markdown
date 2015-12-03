@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "Welcome to My Blog"
+subtitle:   " \"Hello World!\""
+date:       2015-12-01
+author:     "dudubear"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - 生活
+---
+
+
+终于开通了个人博客。
+
+希望这个博客能好好纪录自己的学习历程。
+
+
+
+
+
+
